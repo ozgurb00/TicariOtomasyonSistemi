@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f4020c6bbbae4de9a5fff944979a5b35" Name="Diagram1" ZoomLevel="111">
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TblCari" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TblCariHareket" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TblDepartman" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TblGiderler" Width="1.5" PointX="10.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TblIlceler" Width="1.5" PointX="5.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TblIller" Width="1.5" PointX="7.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TblKasa" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TblKategori" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TblNotlar" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TblPersonel" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TblUrun" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TblCariHareket_TblCari" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TblCariHareket_TblPersonel" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TblCariHareket_TblUrun" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TblPersonel_TblDepartman" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TblUrun_TblKategori" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
